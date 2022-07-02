@@ -1,0 +1,1544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1.16
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 18117b218dbb40845b466776440d1281, type: 2}
+  m_HaloStrength: 0.418
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.0015505059, g: 0.0015006925, b: 0.0012387382, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &11096784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11096786}
+  - component: {fileID: 11096785}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &11096785
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11096784}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &11096786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11096784}
+  m_LocalRotation: {x: 0.06479108, y: 0.46498024, z: -0.034146022, w: 0.88228655}
+  m_LocalPosition: {x: -0.246, y: -0.039, z: 0.058501273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 8.4, y: 55.58, z: 0}
+--- !u!1001 &234424476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.35355335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.35355335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.61237246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.61237246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a71e1a37047d2e0499080048c25f9944, type: 2}
+    - target: {fileID: 919132149155446097, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_Name
+      value: earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+--- !u!4 &234424477 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+  m_PrefabInstance: {fileID: 234424476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &234424478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
+  m_PrefabInstance: {fileID: 234424476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &234424479
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234424478}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 2
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 110
+  m_CollisionDetection: 0
+--- !u!135 &234424480
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234424478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &234424481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234424478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1398ffca6286614a82abe66e4ec2aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minZoom: 0.6
+  maxZoom: 2
+--- !u!1 &778615949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 778615951}
+  - component: {fileID: 778615950}
+  m_Layer: 0
+  m_Name: AppManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &778615950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778615949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72458eec896e58848b8d70dbb5b7a215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  earthObject: {fileID: 234424478}
+  newsPinPrefab: {fileID: 2131347719104263065, guid: 306bf569c796e994ea5bacb8b6c11f5a, type: 3}
+  AllNews:
+  - latitude: 24
+    lonitude: 50
+    title: A 'NATO' for the Middle East?
+    mainText: "Rumors of a new Middle Eastern military alliance are flying. They're
+      significant because an \"Arab NATO\" may include Israel, signaling next steps
+      in better ties between Israel and Arab neighbors. But are the rumors real?Late
+      last week, the king of Jordan made headlines when he told journalists that
+      he would support a military alliance in the Middle East that was similar to
+      NATO.  \"I would be one of the first people that would endorse a Middle East
+      NATO,\" King Abdullah II told US media outlet CNBC. \"All of us are coming
+      together and saying, 'How can we help each other?' \u2026 which is, I think,
+      very unusual for the region.\"  Similar rumors about the creation of an \"Arab
+      NATO\" also came from other quarters.  Earlier last week, Israel's defense
+      minister, Benny Gantz, said Israel had joined a new US-led network that he
+      called the Middle East Air Defense Alliance, or MEAD. Gantz did not specify
+      which Arab nations might also be involved. International media outlets, including
+      Reuters and The Associated Press, were unable to fully verify the Israeli announcement
+      or the title.  Then at the start of this week, The Wall Street Journal reported
+      on secret meetings held in Egypt that saw military officials from Israel, Saudi
+      Arabia, Qatar, Jordan, Egypt, the United Arab Emirates and Bahrain come together
+      to discuss cooperating on defense."
+    date: 30.06.2022
+    time: 9:52
+    image: {fileID: 2800000, guid: 9332d0294f6e37f429a984a598201e62, type: 3}
+    category: 4
+  - latitude: 54
+    lonitude: 39
+    title: Putin accuses NATO of 'imperial ambitions' over Finland, Sweden membership
+      offer
+    mainText: "Russian President Vladimir Putin said there will be \"some tension\"
+      with Sweden and Finland if they join NATO. The two countries were invited to
+      join the alliance on Wednesday.Russian President Vladimir Putin has said that
+      there would be \"some tensions\" between Moscow and Sweden and Finland as the
+      two countries were formally invited to join the NATO military alliance.  Putin
+      was speaking late Wednesday during a visit to Turkmenistan's capital Asghabat.  
+      His comments followed a statement from NATO leaders that Russia \"is the most
+      significant and direct threat to allies' security and to peace and stability
+      in the Euro-Atlantic area.\" What did Putin say? \"There is nothing to worry
+      us in terms of Swedish and Finnish membership of NATO,\" Putin told journalists
+      in Asghabat. \"We don't have problems with Sweden and Finland like we do with
+      Ukraine... They can join whatever they want.\"  Nonetheless, Putin stressed
+      that Moscow would respond in the event of military buildup in the region. 
+      \"They must clearly understand that previously there were no threats to them
+      \u2014 but if troops are stationed there and infrastructure established, we
+      will have to respond accordingly and make the same threats to the territory
+      from where threats to us are coming,\" he added.  Putin went on to say that
+      there will be \"some tension\" between the two countries and Moscow.  Russia's
+      president accused NATO of seeking to assert its \"supremacy\" and \"imperial
+      ambitions,\" as well as using the Ukrainian people as a \"means\" for the alliance
+      to \"defend its own interests.\" He also said that the West was trying to turn
+      Ukraine into an \"anti-Russia.\"  Sweden and Finland to join NATO At a summit
+      on Wednesday, NATO invited Sweden and Finland to join the alliance, initiating
+      the membership process for the two Nordic countries. Both Helsinki and Stockholm
+      had previously maintained military non-alignment.  The expansion of the alliance
+      will extend its land border with Russia by more than 1,300 kilometers (808
+      miles)."
+    date: 30.06.2022
+    time: 10:30
+    image: {fileID: 2800000, guid: c4a3ef2a15988444da5ac419dfd477d5, type: 3}
+    category: 4
+  - latitude: 50
+    lonitude: 15
+    title: Czech Republic assumes EU Council presidency with confidence and ambition
+    mainText: "Russia's invasion of Ukraine, the energy crisis, climate change and
+      a European summit: The Czech Republic has a lot on its plate for its turn leading
+      the Council of the European Union.From July 2022, Europe will be led by two
+      former university rectors: Czech Prime Minister Petr Fiala is a political scientist
+      who served as rector of the Masaryk University in Brno from 2004 and 2011.
+      His friend, musicologist Mikulas Bek, ran the institution from 2011 to 2019,
+      and today serves as the Czech Republic's minister of European affairs. Under
+      the leadership of both men, the Masaryk University became one of the most popular
+      institutes of higher learning in the world, attaining a favorability among
+      students to rival universities in Berlin or Vienna.  Fiala and Bek now want
+      to repeat their success as rectors of their country's second-largest university
+      in the EU by presenting the Czech Republic as part of Western Europe when iMega-summit
+      in Prague Although the French presidency was already able to successfully extend
+      membership candidate status to Ukraine and Moldova at the EU summit in June
+      2022, the question of EU expansion and cooperation with the bloc's neighbors
+      will also be the focus of the most important informal summit scheduled during
+      the Czech Republic's Council presidency.  The event will take place in Prague
+      in October 2022, and be the largest event of its kind, because not only EU
+      member states are to take part but other European countries as well, \"from
+      Iceland to Ukraine, regardless of whether they are EU members or not,\" announced
+      Fiala on his Facebook page. \"It is a challenge for us, but one that we'll
+      master.\"  With the event, the Czech Republic can indirectly establish a link
+      to its last Council presidency in 2009, when the so-called Eastern Partnership
+      between six post-Soviet states (Ukraine, Moldova, Georgia, Armenia and Azerbaijan)
+      and the EU was launched at a similar Prague summit.  Crisis management According
+      to observers, the key to success for the Czech Republic's turn at the helm
+      will be whether it can continue to support Ukraine, ensure that it does not
+      lose the war to Russia, and manage the repercussions of Russian aggression.
+      Beyond that, the Czech Republic will have to moderate debate around advancing
+      legislative steps for the climate plan Fit for 55.  \"It will be enough if
+      we are able to achieve our fundamental aims \u2014 help Ukraine, master the
+      refugee crisis, and solve the energy crisis,\" as Helena Truchla, lead analyst
+      at the think tank Czech Interests in the EU, told DW.  However, just as the
+      Czech Republic prepares to take over the Council presidency, its government
+      is being rocked by a corruption scandal at Prague City Hall in which members
+      of STAN, the second-largest member in the country's current five-party ruling
+      coalition, have been caught up. That, too, is reminiscent of 2009, when the
+      government of Mirek Topolanek was toppled in the middle of the country's Council
+      presidency.  In an attempt to defuse the situation, Education Minister and
+      STAN Deputy Party Chairman Petr Gazdik immediately stepped down, even though
+      he said he had nothing to do with the scandal. \"I don't want to endanger the
+      government or the coalition on the eve of the EU Council presidency,\" said
+      Gazdik of his resignation. In 2009, Prime Minister Topolanek had no parliamentary
+      majority \u2014 that is different today. This time around, the Czech Republic's
+      ruling coalition enjoys a solid majority of 108 of the body's 200 seats.  t
+      takes the Council of the European Union's rotating presidency on July 1, 2022
+      \u2014 and not as part of eastern Europe.  \"I would be very pleased if our
+      EU presidency led to our country being perceived not as a country that seeks
+      to catch up to the West, but as an EU member state with no ifs, ands, or buts,\"
+      Mikulas Bek told DW. \"To do so, it is enough to exercise the role of presiding
+      country with professionalism.\"  Whether or not the Czech Republic is perceived
+      as a \"normal\" EU country like Denmark or Sweden will depend on little things
+      like punctuality at EU negotiations, he said. Such countries did not dominate
+      the EU debate stage like France or Germany, he said, but rather, they knew
+      what it takes to be a good moderator.  Ukraine top of the list Prague is well
+      aware that its performance presiding over the EU Council will be greatly influenced
+      by Russia's aggression toward Ukraine and its effect on the the EU and the
+      world.  \"It is not as if Ukraine is pushing all other issues off the table,
+      but rather that we now have a giant new problem,\" says Bek. After Poland,
+      the Czech Republic is probably the EU country most strongly supporting Kyiv.
+      It is delivering weapons, including tanks and helicopters, and has taken in
+      350,000 Ukrainian refugees.  Looking forward to winter, the Czech EU minister
+      says mastering the energy crisis brought about by Russia will be a focal point.
+      \"That is a central task,\" says Bek, \"one that will determine EU credibility.
+      This will be a bigger test for the EU than dealing with the coronavirus pandemic.\"
+      It is critical that the EU prepare sufficient capacity for liquid gas terminals
+      and transport routes, he adds.Established priorities Such concerns correspond
+      with the priorities that Prime Minister Petr Fiala outlined for the Czech rotating
+      presidency during a press conference in Prague in mid-June. They included:
+      mastering the refugee crisis and the reconstruction of Ukraine after the war;
+      energy security; strengthening Europe's defense capabilities and cyber security;
+      and enhancing the strategic resilience of Europe's economy and democratic institutions.
+      The motto of the Czech Republic's EU Council presidency is a quote from the
+      country's former president, Vaclav Havel \u2014 \"Europe as a task.\"        
+      \"Europe, and with it the entire world, finds itself in a moment of profound
+      transformation. The Russian invasion of Ukraine has shaken many of our certainties,\"
+      as Fiala told reporters, while explaining that Europe must work toward creating
+      a new security architecture. The Czech Republic also understands that its task
+      in presiding over the EU is not defined by pushing its own interests, he said:
+      \"The task of the Czech presidency will, above all, be to achieve consensus
+      in individual areas and attain all-important European unity.\""
+    date: 27.06.2022
+    time: 11:05
+    image: {fileID: 2800000, guid: ea839c7ac8215a240bb9dfde287f0f68, type: 3}
+    category: 4
+  - latitude: 15
+    lonitude: 120
+    title: 'Philippines: What the future holds under Ferdinand Marcos Jr.''s rule'
+    mainText: "Rights groups and media outlets fear a continued climate of intolerance
+      for dissent and shrinking civil liberties in the country.A series of arrests
+      and crackdowns on media outlets in the weeks before the presidential inauguration
+      of Ferdinand Marcos Jr. on Thursday foreshadows a continued climate of intolerance
+      for dissent and shrinking civil liberties in the Philippines, warn activists
+      and human rights defenders.     On Wednesday, the country's Securities and
+      Exchange Commission (SEC) upheld its 2018 ruling to shut down Rappler, the
+      news organization founded by Nobel laureate Maria Ressa in 2012.  The SEC said
+      the outlet violated \"constitutional and statutory restrictions on foreign
+      ownership in mass media.\"  In an online briefing, Ressa said that Rappler
+      would appeal the SEC decision and that its journalists would continue reporting.
+      \"We have plans A to Z\u2026we are not going to voluntarily give up our rights.\"  
+      Ressa is fighting at least seven court cases, including an appeal against a
+      conviction in a cyber libel case, for which she is out on bail and faces up
+      to six years in prison. Rappler faces about eight cases, Ressa said.  But it's
+      not the only media outlet that has been caught in the government's crosshairs. 
+      Misuse of anti-terror laws to go after media? Earlier this month,  the National
+      Security Council ordered internet service providers to shut down a list of
+      websites \"found to be affiliated to and are supporting terrorists and terrorist
+      organizations.\"  Websites affected by the ruling included independent media
+      outlets such as Bulatlat and Pinoy Weekly.  \"The recent order to block websites
+      shows how easily the government can silence dissent and critical reporting
+      under the cover of enforcing laws and regulations,\" Jonathan de Santos, chairperson
+      of the National Union of Journalists of the Philippines, told DW.   \"The timing
+      of it, just days before President Rodrigo Duterte stepped down, makes this
+      look like a last hurrah for an administration that has been hostile to the
+      press,\" he added. \"The press under Marcos Jr. will likely see the same hostility
+      as we saw under Duterte, if not worse.\"The website of Amihan National Federation
+      of Peasant Women, a labor rights group that has been on the receiving end of
+      relentless acts of political intimidation, has also been blocked.   Amihan
+      said that its website focuses on issues and demands of peasant women and the
+      agriculture sector.  \"The new administration is already showing its disregard
+      for human rights and press freedom. They continue to bend laws to serve their
+      benefit,\" Zenaida Soriano, the rights group's chairperson, told DW.    Soriano
+      said Amihan's bank accounts have also been frozen since last year due to alleged
+      violations of terrorism financing rules.   \"You cannot expect anything good
+      from a Marcos, Jr. and Duterte tandem. They are using the anti-terrorism law
+      against citizens who are standing up to defend their rights and their livelihoods.
+      This is the same legacy of their fathers,\" said Soriano.   Landslide victory
+      aided by disinformation?  Marcos Jr., the son and namesake of the former Philippine
+      dictator, was sworn in as president on Thursday after his landslide victory
+      in the recent election.  His running mate \u2014 Sara Duterte, the daughter
+      of his predecessor Duterte \u2014 was sworn in as vice president earlier this
+      month.  Both of them have so far failed to acknowledge the human rights atrocities
+      that took place under their fathers.  Various media organizations have documented
+      how Marcos Jr.'s victory was aided by a massive disinformation campaign.  Critics
+      say both the Marcos and Duterte families have excelled at exploiting and manipulating
+      social media to create an alternative information ecosystem with wide reach.  
+      Regine Cabato, Manila correspondent for the Washington Post and a member of
+      the Foreign Correspondents' Association of the Philippines, told DW that the
+      disinformation campaign of Marcos Jr. ran for decades and was \"elaborate,
+      moneyed, and spans different social media platforms, capturing different sectors.\" 
+      \"In some ways, outgoing president Duterte's administration saw some institutionalization
+      of disinformation: granting propagandists positions in government, the charges
+      against the traditional press, and so on,\" Cabato said.   \"But what Duterte
+      developed in 2016, Marcos Jr.'s team has almost perfected. His campaign is
+      slicker and quicker than Duterte's was, with TikTok influencers and YouTube
+      videos seeded for years. It's a rabbit hole and alternative universe of disinformation,\"
+      he added. "
+    date: 30.06.2022
+    time: 12:37
+    image: {fileID: 2800000, guid: c3c1897d295832e4c89fd2c5f0ac8050, type: 3}
+    category: 6
+  - latitude: 50
+    lonitude: 20
+    title: Poland completes Belarus border wall to prevent migrant crossings
+    mainText: The 186-kilometer long wall was built after Poland accused Belarus
+      of "instrumentalizing" asylum-seekers in late 2021. Poland's prime minister
+      claimed that the standoff was "the first sign" of Russia's war on Ukraine.Polish
+      Prime Minister Mateusz Morawiecki announced on Thursday the completion of Poland's
+      border wall with Belarus.   It's part of Poland's response to migrant crossings
+      into the European Union from Belarus last year, which had turned into a political
+      standoff while at the very least 20 migrants died at the border's freezing
+      forests and bogs.  The wall is 5.5 meters (18 feet) high and 186 kilometers
+      (115 miles) long.  What did Morawiecki say? While speaking in the border town
+      of Kuznica, Poland's prime minister alleged that Belarusian leader Alexander
+      Lukashenko decided to test the European Union's eastern border in preparation
+      for Russia's invasion of Ukraine.  "The first sign of this war was Lukashenko's
+      attack on the Polish border with Belarus," Morawiecki said.  Belarus is a Russian
+      ally and has served as an important staging ground for Moscow's invasion. 
+      What was the standoff? In late 2021, thousands of people began attempting to
+      cross into the European Union through Belarus. Brussels accused Minsk of systematically
+      bringing migrants to the EU's border as a way to exert pressure on the West
+      and push for the easing of sanctions.  While Poland has accepted millions of
+      people fleeing the war in Ukraine, it has maintained a strict policy against
+      arrivals from Belarus, who mostly originate from northern Iraq and elsewhere
+      in the Middle East and Africa.  Rights organizations have accused Poland of
+      illegal pushbacks of asylum seekers back toward its eastern neighbor.  Human
+      Rights Watch said Poland "unlawfully and sometimes violently, summarily pushes
+      migrants and asylum-seekers back to Belarus, where they face serious abuses." 
+      On Friday, Polish authorities will lift a state of emergency along the border
+      which blocked access to journalists, rights workers and others to the border
+      region.  Meanwhile, in a sharp contrast to its treatment of refugees from Iraq,
+      Syria and Afghanistan, Poland has welcomed hundreds of thousands of Ukrainians
+      fleeing Russia's war.   "If you give a lift to a refugee at the Ukrainian border
+      you are a hero. If you do it at the Belarus border you are a smuggler and could
+      end up in jail for eight years," said Natalia Gebert, founder and CEO of Dom
+      Otwarty, or Open House, a Polish NGO that helps refugees.
+    date: 30.06.2022
+    time: 13:08
+    image: {fileID: 2800000, guid: 49533b4b3214ee649aca0885019bb369, type: 3}
+    category: 4
+  - latitude: 33
+    lonitude: 104
+    title: China's Xi Jinping in Hong Kong ahead of handover anniversary
+    mainText: It's the first time Xi has made a trip outside mainland China since
+      the start of the coronavirus pandemic. The visit is expected to showcase Beijing's
+      control over Hong Kong after a political crackdown crushed dissent.Chinese
+      President Xi Jinping arrived in Hong Kong on Thursday ahead of events to mark
+      the 25th anniversary of the city's handover from Britain to China.  The July
+      1 anniversary of the handover has been marked in the past with peaceful pro-democracy
+      protests with tens of thousands of people. This year, however, authorities
+      are clamping down to eliminate public opposition to China's rule over the financial
+      hub.  "Hong Kong has been reborn of fire," Xi said as he arrived in Hong Kong.  
+      "Facts have proved that One Country, Two Systems has great vitality," the president
+      continued, referencing China's official policy that regards Hong Kong as a
+      region with its own systems rather than a sovereign nation.  "Hong Kong will
+      have a good future if we don't waver from One Country, Two Systems," he added.  
+      What is expected for Xi's trip? Xi's visit in Hong Kong on Thursday, and his
+      expected appearance during anniversary events on Friday, marks the first time
+      the president has traveled outside mainland China since the start of the COVID-19
+      pandemic.  Details of his visit have been kept secret, but he was expected
+      to make an appearance on Thursday in Hong Kong before spending the night back
+      on the mainland in neighboring Shenzhen.  He is then expected to return to
+      Hong Kong on Friday for events marking the handover anniversary.  Xi's last
+      visit to the former British colony was in 2017 to swear in outgoing city leader
+      Carrie Lam.One of Hong Kong's last remaining opposition groups, the League
+      of Social Democrats, said it would not protest on July 1, stating that national
+      security officers warned them against staging demonstrations during Xi's visit.  
+      Hong Kong's top polling group has also held off on publishing the results of
+      a survey on the government's popularity, citing a government "risk assessment." 
+      What is the situation in Hong Kong? The anniversary celebrations follow turbulent
+      years in Hong Kong.  Mass gatherings have essentially disappeared due to a
+      combination of strict coronavirus restrictions and a crackdown on dissent under
+      a new national security law.  In 2019, the financial hub was rocked by months
+      of pro-democracy protests that led to the arrest of over 10,000 people.  By
+      July 2020, Hong Kong enacted Beijing's national security law which criminalized
+      any acts of "secession, subversion, terrorism, and collusion with foreign powers." 
+      Under the law, dozens of activists and opposition figures have been arrested,
+      pro-democracy media outlets have been closed and opposition lawmakers have
+      been removed from the city's legislative council.  The crackdown has added
+      to the tension between Beijing and the United States, Europe, Japan and other
+      Asian governments.
+    date: 29.06.2022
+    time: 08:56
+    image: {fileID: 2800000, guid: 749d6055d1e9df54ba0179f7165f4782, type: 3}
+    category: 4
+  - latitude: 20
+    lonitude: -101
+    title: 'Mexico: Journalist shot to death in latest attack on media workers'
+    mainText: It's one of the bloodiest years for press workers in Mexico, with 12
+      journalists killed so far. In the latest attack, a reporter was shot dead while
+      leaving his home in the state of Tamaulipas.A newspaper reporter was shot to
+      death on Wednesday in the northeastern state of Tamaulipas, Mexican authorities
+      said.  He is the 12th journalist to be killed in Mexico so far this year, already
+      approaching its worst annual tally of 13 in recent years in a country that
+      has become notoriously dangerous for reporters.  Mourning for  The journalist
+      was identified as Antonio de la Cruz, who worked as a reporter for the local
+      newspaper Expreso.  De la Cruz was shot while leaving his house in the city
+      of Ciudad Victoria. His 23-year old daughter and wife were also seriously injured
+      in the attack, state prosecutors said.  The 47-year-old regularly reported
+      on rural and social topics such as water shortages. He also frequently criticized
+      alleged acts of corruption by politicians on social media.  The head of Expreso,
+      Miguel Dominguez, said the late reporter "never expressed any concern to us"
+      about his safety.  De la Cruz was "very aware of the reality of Tamaulipas,
+      very brave,'' Dominguez said in an interview with Milenio Television.  Newspaper
+      targeted in the pastThe paper has been regularly targeted over the years, including
+      a car bomb attack outside its offices in 2012.  In 2018, a human head was left
+      outside Expreso's building, with a warning not to report on the violence taking
+      place in the city.  Another Expreso reporter, Hector Gonzalez, was beaten to
+      death in 2018.  Calls for investigation De la Cruz's death prompted swift condemnation
+      and calls for a thorough investigation.  "We must not allow more attacks on
+      journalists and activists. These crimes will not go unpunished," President
+      Andres Manuel Lopez Obrador's spokesman, Jesus Ramirez, wrote on Twitter. 
+      Expreso called for "justice from authorities at all levels."  Rights group
+      Reporters Without Borders urged authorities to launch a probe and investigate
+      whether the murder was linked to de la Cruz's journalistic work.  The state
+      prosecutor's office in Tamaulipas said it was investigating the killing and
+      that a special unit for investigating crimes against freedom of expression
+      had been informed.  Over 150 journalists have been murdered in Mexico since
+      2000. The country is one of the world's most dangerous for media workers, with
+      few cases resulting in convictions.
+    date: 30.06.2022
+    time: 10:23
+    image: {fileID: 2800000, guid: 22b33717cd69af947988af0b1781e6b8, type: 3}
+    category: 5
+  - latitude: 52
+    lonitude: 1
+    title: Europe searches for ways to ease summer travel chaos
+    mainText: "Cancellations and long lines at airports: This isn't what air travelers
+      had planned for as they set off on their long-awaited trips postponed by the
+      pandemic. Now, governments are stepping in to minimize their misery.Chaotic
+      best describes the scenes at major European airports these days as travelers
+      are forced to endure hourslong lines. The more unfortunate ones end up missing
+      their flights.  Strikes and staff shortages have led to the cancellation of
+      thousands of flights and frustratingly long lines at airports as people rush
+      to fly to their dream destinations after being grounded during the pandemic
+      for the past two years.  \"We are angry because we are on vacation. We organized
+      everything and came five hours early. It's simply a waste of time. We could
+      be doing something else,\" a passenger lining up at D\xFCsseldorf Airport told
+      DW.   \"My neighbor works at the airport, and he said it was because of a lack
+      of security persoLabor shortaA wave of flight cancellations Airlines have canceled
+      thousands of flights in the past few weeks because of the bottlenecks. Lufthansa
+      alone has canceled nearly 3,000 flights.   On Tuesday, the German flag carrier's
+      chief executive, Carsten Spohr, apologized to its employees and customers for
+      the travel chaos, Reuters reported.  \"We certainly made mistakes while saving
+      our company and more than 100,000 jobs over the past two years,\" Spohr wrote
+      in a letter to staff seen by the news agency.  \"Did we go too far in cutting
+      costs here and there, under the pressure of the more than \u20AC10 billion
+      ($10.5 billion) in pandemic-related losses? Certainly that, too,\" he added. 
+      The company is recruiting new staff, including thousands of employees in Europe,
+      but the efforts will only bear fruit in winter, Spohr said.  Governments to
+      the rescue Germany has said it would bring in more temporary airport workers
+      from abroad, mainly from Turkey, to ease the situation during the peak summer
+      holiday season. The German government will fast-track work permits and visas
+      for several thousand foreign workers, Labor Minister Hubertus Heil and Interior
+      Minister Nancy Faeser told reporters on Wednesday.  The foreign workers will
+      be put through the same security checks as domestic airport workers before
+      being allowed to work at airports, Faeser said.  According to Germany's ADV
+      airport association, about 20% of jobs in security, check-in and aircraft handling
+      remain vacant.  The Portuguese government plans to nearly double border control
+      staff at the country's six airports by July 4 to handle a massive surge in
+      travelers. The country, one of the sunniest in Europe, has seen the number
+      of passengers through its airports soar this year.  Long lines at airports
+      have also prompted Spanish police to hire 500 more staff to be deployed at
+      the busiest airports, including Madrid and Barcelona. Spanish flag carrier
+      Iberia said earlier this month that delays at Madrid's Barajas Airport passport
+      control had led to around 15,000 of its passengers missing their flight since
+      March 1.  Ireland has put the army on standby to help with security at Dublin
+      Airport in the event of further disruption during the summer travel period.
+      More than 1,000 people missed their flights in a single day last month at the
+      country's main airport because of lengthy lines. Passenger numbers at Dublin
+      Airport are close to pre-pandemic levels.ges plague airports The quick rebound
+      has taken the industry by surprise as it struggles to put together enough staff
+      to deal with the influx of travelers at airports.  Airlines, airports and others
+      in the industry were forced to downsize their workforce during the pandemic.
+      But with demand returning as swiftly as it has, they are struggling to hire
+      staff fast enough.  Their predicament is being made worse by the post-pandemic
+      trend of people becoming more picky when it comes to jobs, shunning roles with
+      poor working conditions and low wages.  \"The German labor market continues
+      to be very tight. Job seekers can choose from a large number of vacancies,
+      while employers have difficulties filling up open positions,\" a spokesperson
+      for Frankfurt Airport operator Fraport told DW. \"Moreover, the recruitment
+      process at airports is specifically complex and time-consuming. This is due
+      to the fact that many operational activities in aviation take place in security-relevant
+      and restricted areas.\"  Given disruptions at airports, travelers are being
+      recommended to arrive at the airport up to 2.5 hours before domestic flights,
+      preferably check in online and make sure their cabin bags are packed right
+      to help avoid delays at the security checkpoints.nnel \u2014 and that's stupid.
+      You pay a lot of money for your flight, so it's annoying if you miss it,\"
+      another traveler said.  The logjams at European hubs such as Frankfurt, London
+      and Paris are also threatening to take the shine off the aviation industry's
+      recovery from its pandemic lows in 2020, when it lost more than $230 billion
+      (\u20AC219 billion) \u2014 hurt by lockdowns and travel restrictions."
+    date: 29.06.2022
+    time: 15:56
+    image: {fileID: 2800000, guid: 0d405b3eb2c61234dba4049556de377e, type: 3}
+    category: 6
+  - latitude: 45
+    lonitude: -109
+    title: 'WHO: Pregnant women and children vulnerable to monkeypox'
+    mainText: As the outbreak grew to about 4,700 cases, the WHO warned that sustained
+      transmission poses a danger to high-risk groups. The WHO has so far, however,
+      not raised its alarm over monkeypox to the highest possible level.
+    date: 29.06.2022
+    time: 18:25
+    image: {fileID: 2800000, guid: c039380ee86626d43a8cd10247d49420, type: 3}
+    category: 3
+  - latitude: 17
+    lonitude: 105
+    title: Vietnam's climate credentials come under scrutiny after activist jailing
+    mainText: The Vietnamese government's commitment to action on climate change
+      is in the spotlight after a leading environmental activist was sentenced this
+      month to two years in prison on murky charges of "tax evasion."Nguy Thi Khanh,
+      a prominent activist and the first Vietnamese recipient of the prestigious
+      Goldman Environmental Prize, was arrested by the police in February.      On
+      June 17, she was sentenced to two years in prison after being found guilty
+      of "tax evasion," a new tactic of repression by the country's communist government.  
+      Khanh, part of a team of civil-society actors informally overseeing the implementation
+      of the EU-Vietnam free trade deal, rose to fame in 2016 after pressuring the
+      government to commit to cutting 20,000 megawatts of coal power from energy
+      plans by 2030.  The US and the EU have called for her release, while her case
+      has left political commentators to speculate on Hanoi's commitment to environmental
+      protection.  In early June, the British magazine The Economist dubbed Vietnam
+      "a bright spot on an otherwise soot-black map" for climate change action in
+      Southeast Asia. In 2021, it became one of the top 10 producers of solar power
+      in the world, according to the International Renewable Energy Agency.  The
+      share of its electricity generated by solar increased from almost zero in 2017
+      to nearly 11% last year.  Vietnam's government has vowed to stop building new
+      coal-powered plants and, at the UN climate summit in Glasgow last year, Prime
+      Minister Pham Minh Chinh said coal consumption would end by 2040.  He said
+      he also wanted to cut emissions to net-zero by 2050, an uphill struggle, given
+      that the country's energy needs are set to increase as its economy grows rapidly
+      and citizens become more prosperous.
+    date: 30.06.2022
+    time: 17:02
+    image: {fileID: 2800000, guid: 1aa00c00fae491344a5222c2406183db, type: 3}
+    category: 2
+  - latitude: 48
+    lonitude: 10
+    title: 'Eswatini: Security tight on protest anniversary'
+    mainText: "Wednesday marks one year since a violent clampdown on pro-democracy
+      activists that left dozens of people dead, many injured and several arrested
+      in the tiny southern African country of Eswatini.Police and troops were deployed
+      across Eswatini's major cities for Wednesday's anniversary of bloody pro-democracy
+      protests.  Security forces patrolled the capital, Mbabane, and the city of
+      Manzini, 40 kilometers (25 miles) away. Helicopters were also reported flying
+      constantly overhead.  Eswatini \u2014 formerly known as Swaziland \u2014 is
+      one of the last remaining absolute monarchies in the world. According to the
+      constitution, King Mswati III is not bound to any law. And he takes great advantage
+      of it.   Anger against the king had been building for years in the country.  
+      What did the protesters demand? Activists accused the king of running a repressive
+      government and evading calls for reforms.  The king had also been accused of
+      using public coffers to fund a lavish lifestyle off the backs of 1.5 million
+      citizens, most of them subsistence farmers.  Demonstrations first erupted in
+      May following the death of a 25-year-old law student, reportedly at the hands
+      of police.  The UN human rights office pointed to reports of \"disproportionate
+      and unnecessary use of force, harassment and intimidation\" by security forces
+      sent in to quell escalating protests.  Protests against Eswatini's monarchy
+      system broke out on June 29, 2021, led by young people, particularly high school
+      and university students, in response to the country's lack of development and
+      opportunities.  Security forces hit back violently, firing gunshots and tear
+      gas to disperse the protesters, witnesses said."
+    date: 28.06.2022
+    time: 12:30
+    image: {fileID: 2800000, guid: d018436b79ff8004dbabba81e931069f, type: 3}
+    category: 4
+  - latitude: 50
+    lonitude: 7
+    title: 'Germany: Severed head dropped outside Bonn courthouse, but no homicide
+      case'
+    mainText: "In a case that shocked Germany, a man's head was left outside a court
+      in Bonn and his body was found in a nearby river. Police, however, said he
+      died of natural causes \u2014 but issued a warrant for desecration of the dead.Police
+      in the western German city of Bonn said on Wednesday they had halted a homicide
+      investigation against a 38-year-old man suspected of placing a severed head
+      outside a city court and the rest of the body in the Rhine River.   Police
+      first found the severed head outside the court on Tuesday and said they believed
+      a headless torso in the river would prove a match for it.   An autopsy later
+      revealed that the two parts did make one whole, but also that the deceased
+      man was already dead when his head was cut off.  \"After the criminal autopsy
+      carried out on the 44-year-old's corpse on Wednesday morning, it is clear that
+      the separation of the head from the torso was not the cause of death,\" Bonn
+      police said in a statement.  \"According to the results of the investigation,
+      the victim had already died of natural causes as a result of a serious illness
+      by that time.\" Investigations continue, arrested suspect has not acknowledged
+      involvement Police however said that they had still issued an arrest warrant
+      against a 38-year-old suspect apprehended on Tuesday.   Prosecutors are now
+      investigating the man on suspicion of having desecrated or tampered with the
+      dead.   Police also noted that the 38-year-old, who was arrested \"in the immediate
+      proximity\" of where the head had been dumped, had not admitted guilt or involvement
+      in the case.  Eyewitnesses had first called to notify police of the head's
+      presence around 5:35 p.m. local time on Tuesday, and police said its first
+      units on the scene had identified and detained the suspect on arrival.   According
+      to police, both the victim and suspect are thought to be members of Bonn's
+      \"homeless"
+    date: 29.06.2022
+    time: 11:41
+    image: {fileID: 2800000, guid: 455a39ccde300db4d9b9aeede99e03fd, type: 3}
+    category: 5
+  - latitude: 49
+    lonitude: 69
+    title: Can heat pumps be the answer to higher energy costs?
+    mainText: "As the price for oil and gas explodes in Europe, heat pumps could
+      be a meaningful alternative. In Germany, lavish state subsidies are making
+      the idea even more attractive for single-family homes.With blistering summer
+      temperature around much of Europe, it may be hard to convince people to think
+      about heat pumps. But a push for more renewable energy plus the ongoing war
+      in Ukraine and the curtailing of Russian gas and oil means there has hardly
+      been a more pressing time.  A heat pump is a system that moves around thermal
+      energy. There are a number of different types of devices based on what they
+      use, including exhaust air, ground and water.  Ground-source heat pump equipment
+      taps into the nearly constant temperature below the soil's surface. These geothermal
+      heat pumps draw heat into a building in winter and remove warm air in summer,
+      acting like an air-conditioner. This type of system uses a network of water-filled
+      pipes that are either laid horizontally a few feet underground or pipes drilled
+      vertically much deeper into the Earth's core.  Advocates say the systems can
+      be used nearly anywhere and are cheaper to run than other heating and air-conditioning
+      systems like boilers, furnaces and electric radiators. As energy costs skyrocket
+      they are a way to access energy locally. Most important for many customers,
+      heat pumps run on electricity and not gas or oil.The heating and air-conditioning
+      manufacturer Viessmann is showing the way. It is one of the market leaders
+      in Germany. At the beginning of May when the company presented its annual earnings
+      report, it announced that it would \u20AC1 billion ($1.05 billion) more in
+      the production of heat pumps.  The company, which has 13,000 employees worldwide,
+      recorded a 41% increase in sales in the heat pump sector in the past financial
+      yThe necessary investments can quickly run into the tens of thousands of euros.
+      The state covers up to 35% of the installation costs in old buildings, and
+      45% if an oil burner is replaced. Most of the costs for a professional energy
+      check are also reimbursed.  With such incentives in place it is no mystery
+      why demand for heat pumps is growing. This has led to long wait times for an
+      energy consultation or for workers to come and install a system. The sector,
+      like many others, is facing a labor shortage, supply chain problems and sudden
+      price hikes.  The war in Ukraine is making oil and gas unpalatable The Russian
+      war in Ukraine and the price of fossil fuels is another reason for increased
+      pressure to move away from oil and gas for heating. But can electric-powered
+      heat pumps solve acute energy problems?  \"There is a very simple answer: Heat
+      pumps can completely replace today's heating technologies, when you take into
+      consideration hybrid heat pumps that combine gas and electricity,\" according
+      to Thomas Nowak from the Brussels-based European Heat Pump Association, which
+      says it represents the majority of the European heat pump industry.  Heat pumps
+      are one of the key building blocks for the energy transition and for making
+      the building sector climate-neutral, Christian Stolte from the German Energy
+      Agency (dena) told DW. \"Heat pumps use renewable energy and can generate three
+      to four units of heat from one unit of electricity,\" he said.ear, while total
+      sales grew by just 21% to \u20AC3.4 billion.  These figures are a reflection
+      of a swing toward electric heat pump technology. Not least because of large
+      subsidies from the federal government to support the technology. Originally
+      these subsidies were designed to reduce emissions of climate-damaging CO2.
+      Now increasing energy costs have put these incentives in the national spotlight. 
+      The initial outlay for heat pumps Heat pumps are significantly more expensive
+      than gas or oil heaters because their technology and design are more complex.
+      Installation is also more complex and takes longer. Many components are located
+      outside of buildings. The buildings themselves must be well insulated. Underfloor
+      heating systems or extra-large radiators make a heat pump more efficient. 
+      \"In almost all cases, the conversion goes hand in hand with structural changes
+      and often with a more energy-efficient renovation of the entire building,\"
+      Thomas Auer, a professor of building technology and climate-friendly construction
+      at the Technical University of Munich, told DW."
+    date: 30.06.2022
+    time: 19:22
+    image: {fileID: 2800000, guid: b458c50a3ed0f5548b8864d142636a5d, type: 3}
+    category: 3
+  - latitude: 31
+    lonitude: 46
+    title: Iraqi prime minister visits Tehran to push for Iran-Saudi talks
+    mainText: Baghdad is hoping to revive talks between Iran and Saudi Arabia following
+      the deadly confrontation in Yemen. Diplomatic ties between Tehran and Riyadh
+      have been non-existent for years.Iraq's Prime Minister Mustafa al-Kadhimi met
+      with Iranian President Ebrahim Raisi in Tehran on Saturday, a day after visiting
+      Saudi Arabia, Iranian state TV reported.  "We have agreed to work together
+      to bring stability and calm to the region," Kadhimi said in a joint televised
+      news conference with Raisi.   Al-Kadhimi's trip aims at reviving talks between
+      Riyadh and Tehran, although the two leaders remained non-committal while addressing
+      the press.  "Dialogue with regional officials can resolve the regional issues,"
+      Raisi said, without elaborating.  Iraq, like Iran, is a majority Shiite country,
+      but also maintains relations with Sunni-majority Saudi Arabia. Keeping balanced
+      relations with its two larger neighbors has been a key policy for al-Kadhimi's
+      administration since he came to power.  Shift amid West-Russia standoff Al-Kadhimi
+      visit comes a day after his meeting with Saudi Arabia's Crown Prince Mohammed
+      bin Salman in the Saudi city of Jeddah.   It also comes as Western leaders
+      seem to be trying to improve ties with oil and gas-rich countries amid the
+      faceoff with Russia. EU foreign policy chief Josep Borrell traveled to Tehran
+      on Friday and announced the long-stalled talks on Iran's nuclear program are
+      set to continue in the coming days. country in response to the execution of
+      Shiite cleric Nimr al-Nimr by Saudi authorities.  The two powers have also
+      indirectly confronted each other in Yemen, in what is generally seen as a proxy
+      war. Saudi Arabia has backed the ousted Yemeni government while Iran supports
+      the Houthi rebels.  However, a recent truce in Yemen has sought to bring an
+      end to the conflict that has triggered one of the world's worst humanitarian
+      disasters.  Attempts to heal the yearslong tensions between Tehran and Riyadh
+      were made in low-key talks in Baghdad last year, but these were suspended following
+      the execution of some 40 Shiite citizens.
+    date: 30.06.2022
+    time: 12:26
+    image: {fileID: 2800000, guid: c4d6c1baa57acdb4fa06dda9ae4e3b58, type: 3}
+    category: 4
+  - latitude: 5.7
+    lonitude: 20.02
+    title: With vast arable lands, why does Africa need to import grain?
+    mainText: "Despite having vast amounts of arable land, nutritious indigenous
+      crops and a booming agricultural sector, Africa still imports most of its grain.The
+      Russian army\u2019s blockade of Ukraine's Black Sea ports and the ripple effects
+      of Western sanctions against Moscow have raised international food and fuel
+      prices, leaving millions of Africans facing an \"unprecedented food emergency\"
+      this year, the World Food Programme has said.   Kenya, Somalia, and large parts
+      of Ethiopia are at risk of acute food insecurity, theUN's Food & Agriculture
+      Organization saidthis week. In Sahel and West Africa, more than 40 million
+      people could go hungry in 2022, according to the FAO, up from 10.8 million
+      people in 2019.   Even before the Russian invasion in late February, the pandemic
+      and a long period of drought had already hit African economies hard. The war
+      in Ukraine made things critically worse since the continent imported about
+      a third of its wheat from Russia and Ukraine. With food prices skyrocketing
+      in global markets, even those countries not reliant on imports from Russia
+      and Ukraine are suffering.  Over the past decade, Africa's food import bill
+      has nearly tripled, but its agricultural sector has also been growing steadily.
+      The continent has immense potential for feeding itself, with vast amounts of
+      arable lands. But why is it still dependent on imported grain?  Africans produce
+      food, but not for themselves  A major part of African farmlands is used to
+      grow crops such as coffee, cocoa, and cottonseed oil for export, while the
+      staple crops of the African diet, wheat, and rice, mainly come from outside
+      of the continent.  Much of this imported food could be produced locally,according
+      to the World Bank, while African countries' self-sufficiency could also be
+      boosted by replacing foreign cereal with regional crops such asThat view changed
+      once NGOs and the government began to support the local production of vegetables.
+      \"They first found their way to the local day markets, and soon after were
+      introduced in chain supermarkets at a national level,\" he said.  In addition
+      to their health benefits and ecological advantages, \"indigenous crops can
+      empower subaltern communities, especially female farmers,\" Bokelmann said.
+      \"There are many types of crops that can grow in home gardens in cities' margins
+      within a short period of time.\"  With the continuous trend of migration from
+      villages to cities in Africa, constellations of small plots of indigenous crop
+      farms around the cities can count for vital food sources for the ever-expanding
+      population of slums and marginal communities, he noted.  Dilemmas and challenges
+      But Chivenge is aware that boosting indigenous crop production faces many hurdles.
+      The smallholder farmers who grow them have limited access to fertilizers, which
+      keeps their productivity low. They also lack the means to process and market
+      their harvests, and fresh, unprocessed food needs quick shipment, which is
+      not an option in most intra-African markets.    Furthermore, African countries
+      cannot simply switch to the production of indigenous crops when exporting cash
+      crops to richer countries is more profitable.  \"Most of these nations are
+      faced with a dilemma,\" Bokelmann said. \"They are forced to choose between
+      the mass production of crops for exporting, which brings them more price value,
+      or feeding the majority of their population by supporting small-scale farming
+      of indigenous crops.\"   fon\"Indigenous crops could offer much healthier alternatives
+      to the cereals currently in use,\" Pauline Chivenge, a researcher at the African
+      Plant Nutrition Institute in Morocco, told DW. \"They have  benefits that go
+      beyond sustaining food security. They are more nutritious, so in addition to
+      the necessary callories, they contain higher amounts of protein and vitamins.\" 
+      Yet indigenous crops have been neglected for decades, largely due to states
+      and international companies pushing for the mass production of maize and wheat
+      and promoting them as staples. \"Research and development and mechanization
+      have focused on maize, rice, and wheat, and producing them in large, mono-crop
+      fields at the expense of the region\u2019s biodiversity,\" Chivenge said. 
+      \"But the fact is that grains like maize and wheat are not really suitable
+      for growing in most regions of Africa, where water is in short supply,\" she
+      added. \"They are very much dependent on regular rainfall, which is becoming
+      a real challenge in the wake of climate change.\"  Can smallholder farmers
+      feed Africa with indigenous crops? Wolfgang Bokelmann, food and agriculture
+      economist at Humboldt University in Berlin, agrees that local crops are underutilized.
+      Between 2015 to 2018 he oversaw a study on the local production and consumption
+      of a group of indigenous vegetables in Kenya. \"The vegetables we studied had
+      previously fallen out of fashion and used to be known as the poor man's food,
+      due to dominance of the foreign produce that colonialization brought to Kenya,\"
+      he told DW.io, teff, sorghum, amaranth, and millet. African countries could
+      trade these crops between themselves, creating much-needed jobs for their youth
+      and income for their farmers. The crops would also serve as the basis for a
+      healthy diet."
+    date: 30.06.2022
+    time: 20:52
+    image: {fileID: 2800000, guid: 4711f4ad3ba2f854cbdf6d87c7ef632e, type: 3}
+    category: 0
+  - latitude: 36
+    lonitude: 52
+    title: 'Dynamic diplomacy: From SCO to BRICS'
+    mainText: "TEHRAN \u2014 The tree of Iran\u2019s balanced foreign policy approach
+      is on the verge of being a one-year-old child. Stronger than before, Iran is
+      pursuing dynamic diplomacy in a variety of cities such as Doha, Ashgabat, and
+      other capitals. Baghdad will also join the list soon.While Iran\u2019s top
+      negotiator Ali Bagheri Kani is engaged in intensive negotiations in Qatar with
+      the United States through the European Union delegation, Iran\u2019s President
+      Ebrahim Raisi and his oil and foreign ministers are in Ashgabat pursuing transit
+      diplomacy as well as the legal regime of the Caspian Sea with the littoral
+      states.   Prior to his departure for Ashgabat on Wednesday, Raisi spoke to
+      reporters about the purpose of his visit to Turkmenistan.   \u201CThis visit
+      is taking place at the invitation of the esteemed president of the brotherly
+      and friendly country of Turkmenistan in order to attend the Caspian Sea littoral
+      states summit,\u201D he remarked.  The President called the Caspian Sea a common
+      heritage and capital for the littoral states with more than 270 million people.  
+      \u201CWe have good relations with the littoral states of the Caspian Sea, but
+      in addition to reviewing the legal regime of the Caspian Sea and peaceful use
+      of the sea for the purpose of improving security at the sea, what will be discussed
+      at the sixth summit of the Caspian Sea littoral states is cooperation between
+      countries in the fields of transport, transit, trade, management of marine
+      living resources, environment, as well as preventing the presence of outsiders
+      in the sea, which is also agreed upon by all coastal countries.\u201D  Prior
+      to the beginning of the summit, Raisi met Serdar Berdimuhamedow, Turkmenistan\u2019s
+      President, as well as Chairman of the People's Council of Turkmenistan, Gurbanguly
+      Berdimuhamedow.  During the meeting with the President of Turkmenistan, Raisi
+      pointed out that the implementation of the memoranda of understanding and cooperation
+      documents signed by the two countries during Berdimuhamedow\u2019s recent visit
+      to Tehran will accelerate promotion of cooperation between the two countries. 
+      Later, Raisi met with the Azerbaijani President, Ilham Aliyev.   During the
+      meeting, Raisi reminded Aliyev that the presence of the Israeli regime in any
+      part of the world undermines security there.  The president also had a brief
+      meeting with his Russian counterpart Vladimir Putin on the sidelines of the
+      summit.   There\u2019s little doubt that Tehran has not put all its eggs into
+      the basket of the JCPOA revival, as it actively seeks to establish trade relations
+      with the neighbors. It\u2019s short-sighted thinking to assume that Iran has
+      to wait for the United States to return to the JCPOA, while it can enjoy the
+      benefits of regional alliances such as the Shanghai Cooperation Organization
+      (SCO), or BRICS (Brazil, Russia, India, China, and South Africa).   On Monday,
+      Iran\u2019s former Foreign Ministry spokesman Saeed Khatibzadeh, who was holding
+      his last presser, told the Tehran Times correspondent that Tehran has submitted
+      a membership request to the BRICS secretariat via Foreign Minister Hossein
+      Amir Abdollahian. While dynamically trailing balanced and active diplomacy
+      with the neighbors, Tehran is awaiting Washington\u2019s serious political
+      decisions to return to the Joint Comprehensive Plan of Action (JCPOA)."
+    date: 30.06.2022
+    time: 20:52
+    image: {fileID: 2800000, guid: 56b16bed8de6fef41898e26f5e779b99, type: 3}
+    category: 0
+  - latitude: 37
+    lonitude: -92
+    title: 'Hornets forward Miles Bridges arrested on eve of free agency By STEVE
+      REED an hour ago '
+    mainText: "Charlotte Hornets forward Miles Bridges was arrested Wednesday in
+      Los Angeles after a warrant was issued, according to the Los Angeles Police
+      Department.  LAPD spokeswoman Lizeth Lomeli confirmed Bridges was arrested,
+      but did not release details on the charges. TMZ reported that Bridges is facing
+      felony domestic violence charges.  The Hornets have not responded to news of
+      Bridges\u2019 arrest.  Bridges, the Hornets\u2019 leading scorer last season,
+      is set to become a restricted free agent and could command a max contract in
+      the coming weeks. The news comes on the eve of NBA free agency, which begins
+      Thursday night with teams able to speak with free agents.  The 24-year-old
+      Bridges averaged career highs with 20.2 points and seven rebounds last season
+      in what amounted to a breakout season for the four-year NBA veteran while playing
+      alongside All-Star point guard LaMelo Ball.  Bridges, who played at Michigan
+      State, is also a rapper who goes by the name RTB MB.The Hornets extended Bridges
+      a qualifying offer on Tuesday, which allows them to a chance to match any offer
+      sheet made by another team.  \u201CAs an organization we love Miles,\u201D
+      Hornets general manager Mitch Kupchak said Tuesday. \u201CWe are going to bring
+      him back. He has been great for the franchise and I believe, with his work
+      ethic, he\u2019s only going to get better.\u201DThe 6-foot-7, 225-pound Bridges
+      said after the season he wanted to return to the Hornets, but he recently changed
+      his Twitter bio from \u201Cforward for the Charlotte Hornets\u201D to \u201CIt\u2019s
+      me,\u201D adding some intrigue to the situation."
+    date: 30.06.2022
+    time: 12:56
+    image: {fileID: 2800000, guid: dea07c3cfeeb78341b1eeed3eafd7251, type: 3}
+    category: 5
+  - latitude: -25
+    lonitude: 141
+    title: Australia prioritizes reducing emissions and cheaper EVs
+    mainText: "CANBERRA, Australia (AP) \u2014 Australia\u2019s new government is
+      putting climate change at the top of its legislative agenda when Parliament
+      sits next month for the first time since the May 21 election, with bills to
+      enshrine a cut in greenhouse gas emissions and make electric cars cheaper,
+      a minister said on Wednesday.  A bill will be introduced to commit Australia
+      to reducing its emissions by 43% below 2005 levels by 2030 when Parliament
+      sits on July 26, Minister for Climate Change and Energy Chris Bowen told the
+      National Press Club.  Another bill would abolish import tariffs and taxes for
+      electric vehicles that are cheaper than the luxury car threshold of 77,565
+      Australian dollars ($53,580).  Only 1.5% of cars sold in Australia are electric
+      or plug-in hybrid, and passenger cars account for almost 10% of the nation\u2019s
+      emissions, the government said.  The new center-left Labor Party government
+      expects EVs will account for 89% of Australian new car sales by 2030.The government\u2019s
+      fleet will be converted to 75% no-emission vehicles, bolstering a second-hand
+      EV market as government vehicles are sold after three years.  The new government
+      has already officially informed the United Nations of Australia\u2019s more
+      ambitious 2030 target than the previous conservative Liberal Party-led administration
+      had pursued, a reduction of 26% to 28%.But Bowen said legislating the 43% target
+      would create greater confidence.  \u201CIt\u2019s about certainty and stability,
+      mainly for the business investment community,\u201D Bowen said.  \u201CIt sends
+      a signal if a parliament hasn\u2019t legislated that maybe the country\u2019s
+      not serious. Maybe a future government, heaven forbid a Liberal government,
+      might walk it back,\u201D Bowen added.  Opposition leader Peter Dutton has
+      ruled out his Liberal Party senators getting the Labor target through the upper
+      chamber. Labor holds only 26 seats in the 76-seat Senate so needs outside help
+      to pass its legislative agenda.  If Labor got all 12 senators from the minor
+      Greens party to support the target, the government would only need to persuade
+      one of six remaining independent or unaligned legislators to reach a majority. 
+      Greens leader Adam Bandt has said he will push the government to ban new coal
+      mines and gas projects when that target legislation is negotiated. The Greens
+      want Australian emissions reduced by 75% by 2030.  Australia\u2019s greenhouse
+      gas emissions rose last year by 0.8%, or 4.1 million metric tons (4.5 million
+      U.S. tons).  Bowen described the increase as one of the biggest emissions spikes
+      in 15 years and blamed the previous government\u2019s inaction during nine
+      years in office.  Factors that caused the increase included a 4% rise in transport
+      emissions as pandemic travel restrictions eased and 4.2% more agricultural
+      emissions as rain ended years of drought across large swathes of southeast
+      Australia.."
+    date: 30.06.2022
+    time: 14:32
+    image: {fileID: 2800000, guid: 56b16bed8de6fef41898e26f5e779b99, type: 3}
+    category: 0
+  AllCategorytexture:
+  - category: 0
+    texture: {fileID: 2800000, guid: 0fd4472384006024bbbf2c2d48e45463, type: 3}
+    ringColor: {r: 1, g: 0.70513064, b: 0, a: 1}
+  - category: 1
+    texture: {fileID: 2800000, guid: 7f03144f9c5d8ef4bbc64bfe40d5cf1d, type: 3}
+    ringColor: {r: 1, g: 0.8926479, b: 0, a: 1}
+  - category: 2
+    texture: {fileID: 2800000, guid: f54cc275646eba043932cb8591285aab, type: 3}
+    ringColor: {r: 0, g: 0.8773585, b: 0.0061354167, a: 1}
+  - category: 3
+    texture: {fileID: 2800000, guid: b0d6b9a397abbda42b353f6788075319, type: 3}
+    ringColor: {r: 0.43756437, g: 0, b: 1, a: 1}
+  - category: 4
+    texture: {fileID: 2800000, guid: f05fede7539b38e40b48be87a6175f37, type: 3}
+    ringColor: {r: 0.2783019, g: 0.6462175, b: 1, a: 1}
+  - category: 5
+    texture: {fileID: 2800000, guid: 5b0975bb0ce26e540ab2505adcf9e1df, type: 3}
+    ringColor: {r: 1, g: 0.18753722, b: 0, a: 1}
+  - category: 6
+    texture: {fileID: 2800000, guid: 8406e9dd506a9fa4baf44e67029cb76f, type: 3}
+    ringColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &778615951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778615949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.26939362, y: 0.100848004, z: 1.091291}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1646296161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1646296162}
+  m_Layer: 0
+  m_Name: MixedRealityPlayspace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1646296162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646296161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1760331864}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1760331863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1760331864}
+  - component: {fileID: 1760331869}
+  - component: {fileID: 1760331868}
+  - component: {fileID: 1760331867}
+  - component: {fileID: 1760331866}
+  - component: {fileID: 1760331865}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1760331864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760331863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1646296162}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1760331865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760331863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockCursorWhenFocusLocked: 1
+  setCursorInvisibleWhenFocusLocked: 0
+  maxGazeCollisionDistance: 10
+  raycastLayerMasks:
+  - serializedVersion: 2
+    m_Bits: 4294967291
+  stabilizer:
+    storedStabilitySamples: 60
+  gazeTransform: {fileID: 0}
+  minHeadVelocityThreshold: 0.5
+  maxHeadVelocityThreshold: 2
+--- !u!114 &1760331866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760331863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a21b486d0bb44444b1418aaa38b44de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1760331867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760331863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!81 &1760331868
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760331863}
+  m_Enabled: 1
+--- !u!20 &1760331869
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760331863}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.001
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 2147483647
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!1 &1883523419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1883523421}
+  - component: {fileID: 1883523420}
+  m_Layer: 0
+  m_Name: MixedRealitySceneContent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1883523420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883523419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65c9dd2f312b8d41b8849d58e1053fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alignmentType: 0
+  containerObject: {fileID: 0}
+--- !u!4 &1883523421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883523419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1907981952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1907981954}
+  - component: {fileID: 1907981953}
+  m_Layer: 0
+  m_Name: MixedRealityToolkit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1907981953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907981952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeProfile: {fileID: 11400000, guid: 6776291f5054da549861f0f18d86f032, type: 2}
+--- !u!4 &1907981954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907981952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2144671597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144671598}
+  - component: {fileID: 2144671599}
+  m_Layer: 0
+  m_Name: EarthHalo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2144671598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144671597}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 234424477}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &2144671599
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144671597}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294914610
+  m_Size: 0.6
