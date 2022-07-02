@@ -254,19 +254,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.35355335
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.35355335
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.61237246
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.61237246
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -274,7 +274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 120
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 935cad107074f314580fafa2a1428d0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -326,7 +326,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 110
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!135 &234424480
 SphereCollider:
