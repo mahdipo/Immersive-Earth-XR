@@ -20,24 +20,25 @@ public class NewsPanelData : MonoBehaviour
     {
         gameObject.SetActive(false);
         transform.localScale = Vector3.zero;
-        transform.position = transform.parent.position + transform.parent.up * .1f;
+        transform.position = transform.parent.position + transform.parent.up * .06f;
         isHiden = true;
     }
     private void Update()
     {
-         if(isHiden)
-         {
-             transform.localScale = Vector3.Lerp(transform.localScale, Vector3.zero, Time.deltaTime * 15);
-             if (transform.localScale.x < 0.2f) 
-             {                
-                 gameObject.SetActive(false);
-             }
-         }
-         else
-         {
-             transform.localScale = Vector3.Slerp(transform.localScale, Vector3.one*.8f, Time.deltaTime * 15);            
-         }
+        if (isHiden)
+        {
+            transform.localScale = Vector3.Lerp(transform.localScale, Vector3.zero, Time.deltaTime * 15);
+            if (transform.localScale.x < 0.2f)
+            {
+                gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            transform.localScale = Vector3.Slerp(transform.localScale, Vector3.one * .8f, Time.deltaTime * 15);
+        }
 
+        //look at camera 
         if (gameObject.activeSelf)
         {
             transform.right = Vector3.Cross(Vector3.up, transform.position - Camera.main.transform.position);
@@ -58,18 +59,12 @@ public class NewsPanelData : MonoBehaviour
     {
         //AppManager.instance.hideAllNewsPanel();
         isHiden = false;
-
-        gameObject.SetActive(true);
-       // transform.localScale = Vector3.one * .8f;
-        transform.position = transform.parent.position + transform.parent.up * .1f;
-        
-        Debug.LogError("show");
+        gameObject.SetActive(true);               
     }
 
     public void hide()
     {
-        isHiden = true;
-       // gameObject.SetActive(false);
+        isHiden = true;        
         Debug.LogError("Hide");
 
     }

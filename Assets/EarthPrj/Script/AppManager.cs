@@ -42,7 +42,7 @@ public class AppManager : MonoBehaviour
 
         NewsObject newsObjectData = newsPin.GetComponent<NewsObject>();
         newsPin.transform.parent = earthObject.transform;
-        newsPin.transform.localScale = Vector3.one;
+        newsPin.transform.localScale = Vector3.one*0.5f;
 
         newsObjectData.Init(newsRawIndex);
     }

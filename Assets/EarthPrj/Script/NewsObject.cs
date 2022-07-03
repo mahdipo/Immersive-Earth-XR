@@ -8,7 +8,7 @@ public class NewsObject : MonoBehaviour, IMixedRealityPointerHandler, IMixedReal
 {
     public float Latitude;
     public float Longitude;
-    float altitude = 0.505f;
+    float altitude = 0.502f;
 
     public GameObject newsPanel;
     public NewsPanelData newsPanelData;
@@ -58,8 +58,6 @@ public class NewsObject : MonoBehaviour, IMixedRealityPointerHandler, IMixedReal
         updatePos();
 
         setTexture(_newsRawListIndex);
-
-
     }
 
 
@@ -132,13 +130,13 @@ public class NewsObject : MonoBehaviour, IMixedRealityPointerHandler, IMixedReal
 
         if (focusedEnterTriger)
         {
-            Vector3 newScale = Vector3.one * 1.3f;
+            Vector3 newScale = Vector3.one * 0.7f;
             transform.localScale = Vector3.Lerp(transform.localScale, newScale, 15 * Time.deltaTime);
         }
 
         if (focusedExitTriger)
         {
-            Vector3 newScale = Vector3.one;
+            Vector3 newScale = Vector3.one*0.5f;
             transform.localScale = Vector3.Lerp(transform.localScale, newScale, 15 * Time.deltaTime);
         }
 

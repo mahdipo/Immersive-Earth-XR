@@ -111,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 2131347719104263065}
   m_LocalRotation: {x: 0.7071068, y: 0.00000014901161, z: 0.00000014901161, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5088721029352468949}
@@ -154,6 +154,7 @@ MonoBehaviour:
   ringMaterial: {fileID: 2100000, guid: 59192d526924ea048aeaa707d232aab2, type: 2}
   meshRenderer: {fileID: 0}
   ringMeshRenderer: {fileID: 3204273319354609674}
+  ringAnimationSpeedVariation: 0
   ringObj: {fileID: 870922875533562502}
   bodyObj: {fileID: 4499441604750301276}
 --- !u!1 &4499441604750301276
@@ -400,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5508889689014364062, guid: 16c79637d6724a64c9b3ce8d64a149e1, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5508889689028535051, guid: 16c79637d6724a64c9b3ce8d64a149e1, type: 3}
       propertyPath: m_Layer
