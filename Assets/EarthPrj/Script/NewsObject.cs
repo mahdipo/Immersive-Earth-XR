@@ -84,7 +84,6 @@ public class NewsObject : MonoBehaviour, IMixedRealityPointerHandler, IMixedReal
             ringMaterial.SetColor("_EmissionColor", c);
 
         }
-
     }
 
     Vector3 getPositionFrom_Lat_Lon(float lat, float lon)
@@ -139,9 +138,6 @@ public class NewsObject : MonoBehaviour, IMixedRealityPointerHandler, IMixedReal
             Vector3 newScale = Vector3.one*0.5f;
             transform.localScale = Vector3.Lerp(transform.localScale, newScale, 15 * Time.deltaTime);
         }
-
-
-
     }
 
     private void ringAnimation()
