@@ -124,10 +124,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _AtmosFalloff: 10.7
-    - _BorderMapIntensity: 1.42
+    - _BorderMapIntensity: 1.21
     - _BumpScale: 1
     - _CloudIntensityMin: 0.177
-    - _CloudMapIntensity: 1.28
+    - _CloudMapIntensity: 1.02
     - _Cutoff: 0.5
     - _DetailIntensity: 0.35
     - _DetailIntensityMin: 0.444
@@ -146,8 +146,8 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Rim: 0.319
-    - _RimIntensity: 11.9
-    - _RimPower: 8.6
+    - _RimIntensity: 10.3
+    - _RimPower: 10.9
     - _Shininess: 0.03
     - _Smoothness: 0.168
     - _SmoothnessTextureChannel: 1
